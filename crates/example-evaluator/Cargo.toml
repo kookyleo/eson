@@ -1,0 +1,13 @@
+[package]
+name = "example-evaluator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+quote = { version = "1", features = [] }
+syn = { version = "2", features = ["full", "visit", "extra-traits"] }
+proc-macro2 = "1"
